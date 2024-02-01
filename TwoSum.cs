@@ -9,7 +9,7 @@ namespace Two_Sum
             int TargetNum = Convert.ToInt32(Console.ReadLine());
             for (int i = 0; i < ints.Length; i++)
             {
-                for (int j = 0; j < ints.Length-1; j++)
+                for(int j = i+1; j < ints.Length; j++)
                 {
                     int helper = 0;
                     helper = ints[i] + ints[j];
